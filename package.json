@@ -8,7 +8,6 @@
     "lint": "next lint",
     "start": "next start",
     "server": "node scripts/server.js"
-    
   },
   "dependencies": {
     "@aws-sdk/credential-providers": "latest",
@@ -53,6 +52,9 @@
     "dotenv": "latest",
     "embla-carousel-react": "8.5.1",
     "express": "^5.1.0",
+    "firebase": "^12.0.0",
+    "firebase-admin": "^13.4.0",
+    "firebase-functions": "^6.4.0",
     "flutterwave-node-v3": "latest",
     "fs": "latest",
     "gcp-metadata": "latest",
@@ -86,9 +88,11 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.11.6",
     "@types/node": "^22",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "firebase-frameworks": "^0.11.8",
     "postcss": "^8.5",
     "tailwindcss": "^3.4.17",
     "typescript": "^5"
